@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solutions – Chiara Core</title>
+  <meta name="description" content="Chiara OS solutions tailored for Commercial Real Estate, Retail, Corporate, Education, and Healthcare buildings." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pages.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="https://www.figma.com/api/mcp/asset/de174a65-889f-44bf-9cbb-f3940ed01ad6" alt="Chiara Core" />
+      </a>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="platform.html">Platform</a></li>
+        <li><a href="solution.html" class="active">Solution</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+      <a href="index.html#demo" class="btn btn--teal btn--sm nav__cta">Request a Demo</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero page-hero--dark">
+    <div class="page-hero__bg"></div>
+    <div class="container page-hero__inner">
+      <p class="page-hero__eyebrow">SOLUTIONS</p>
+      <h1 class="page-hero__title">
+        Built for <span class="text-teal">every building,</span><br />
+        every team.
+      </h1>
+      <p class="page-hero__sub">
+        Whether you manage a corporate campus, a retail portfolio, or a hospital estate — Chiara OS adapts to your sector's specific challenges and compliance requirements.
+      </p>
+    </div>
+    <div class="page-hero__deco page-hero__deco--left"></div>
+  </section>
+
+  <!-- SOLUTION TABS NAV -->
+  <section class="sol-tabs-section">
+    <div class="container">
+      <div class="sol-tabs" role="tablist">
+        <button class="sol-tab sol-tab--active" data-sol="cre" role="tab">Commercial Real Estate</button>
+        <button class="sol-tab" data-sol="retail" role="tab">Retail</button>
+        <button class="sol-tab" data-sol="corporate" role="tab">Corporate</button>
+        <button class="sol-tab" data-sol="education" role="tab">Education</button>
+        <button class="sol-tab" data-sol="healthcare" role="tab">Healthcare</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION PANELS -->
+
+  <!-- CRE -->
+  <section class="sol-panel sol-panel--active" data-sol-panel="cre">
+    <div class="container sol-panel__inner">
+      <div class="sol-panel__text">
+        <h2>Commercial<br />Real Estate</h2>
+        <p class="sol-panel__intro">Drive NOI higher and delight tenants with a smarter building experience — all while cutting operational overheads.</p>
+        <div class="sol-panel__benefits">
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">↓</div>
+            <div>
+              <strong>Up to 30% energy savings</strong>
+              <p>Automated HVAC scheduling and occupancy-driven controls eliminate waste without impacting comfort.</p>
+            </div>
+          </div>
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">✓</div>
+            <div>
+              <strong>Tenant satisfaction</strong>
+              <p>Give tenants a self-service app for comfort requests, visitor management, and space booking.</p>
+            </div>
+          </div>
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">⬆</div>
+            <div>
+              <strong>Asset value uplift</strong>
+              <p>Sustainability credentials and smart-building certifications that increase asset valuation and attract premium tenants.</p>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#demo" class="btn btn--teal">Talk to an Expert</a>
+      </div>
+      <div class="sol-panel__image">
+        <img src="https://www.figma.com/api/mcp/asset/6f920f5d-421f-4fa5-9e1c-e9dabc74a3ed" alt="Commercial Real Estate Dashboard" />
+      </div>
+    </div>
+  </section>
+
+  <!-- RETAIL -->
+  <section class="sol-panel" data-sol-panel="retail">
+    <div class="container sol-panel__inner">
+      <div class="sol-panel__text">
+        <h2>Retail</h2>
+        <p class="sol-panel__intro">Deliver consistent in-store environments across hundreds of locations while giving your FM team a single pane of glass for the entire estate.</p>
+        <div class="sol-panel__benefits">
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">⚡</div>
+            <div>
+              <strong>Centralised multi-site control</strong>
+              <p>Manage lighting, HVAC, and refrigeration across every store from one cloud dashboard.</p>
+            </div>
+          </div>
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">📋</div>
+            <div>
+              <strong>Compliance made easy</strong>
+              <p>Automated compliance logs, temperature monitoring records, and audit trails always at hand.</p>
+            </div>
+          </div>
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">↓</div>
+            <div>
+              <strong>Reduce maintenance costs by 20%</strong>
+              <p>Planned preventative maintenance and fault detection keep equipment running longer for less.</p>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#demo" class="btn btn--teal">Talk to an Expert</a>
+      </div>
+      <div class="sol-panel__image">
+        <img src="https://www.figma.com/api/mcp/asset/33f1f91c-b114-4fbf-8433-09167d781a61" alt="Retail Dashboard" />
+      </div>
+    </div>
+  </section>
+
+  <!-- CORPORATE -->
+  <section class="sol-panel" data-sol-panel="corporate">
+    <div class="container sol-panel__inner">
+      <div class="sol-panel__text">
+        <h2>Corporate</h2>
+        <p class="sol-panel__intro">Create a workplace your people love — and give your FM, IT, and sustainability teams the tools to manage it efficiently.</p>
+        <div class="sol-panel__benefits">
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">🏢</div>
+            <div>
+              <strong>Space optimisation</strong>
+              <p>Occupancy analytics reveal how space is actually used, helping you right-size your estate and reduce real estate costs.</p>
+            </div>
+          </div>
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">🌱</div>
+            <div>
+              <strong>ESG &amp; net zero reporting</strong>
+              <p>Automated carbon accounting and GRESB-ready reports to support your sustainability commitments.</p>
+            </div>
+          </div>
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">👤</div>
+            <div>
+              <strong>Employee experience</strong>
+              <p>Desk booking, room scheduling, and comfort controls all in one employee-facing mobile app.</p>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#demo" class="btn btn--teal">Talk to an Expert</a>
+      </div>
+      <div class="sol-panel__image">
+        <img src="https://www.figma.com/api/mcp/asset/0defeb25-4bba-4406-8853-49609f1935f7" alt="Corporate Dashboard" />
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="sol-panel" data-sol-panel="education">
+    <div class="container sol-panel__inner">
+      <div class="sol-panel__text">
+        <h2>Education</h2>
+        <p class="sol-panel__intro">From single schools to multi-campus universities — Chiara OS helps education estates cut costs and meet sustainability targets.</p>
+        <div class="sol-panel__benefits">
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">📚</div>
+            <div>
+              <strong>Term-time scheduling</strong>
+              <p>Automatically adjust HVAC and lighting to term calendars, saving energy during holidays and evenings.</p>
+            </div>
+          </div>
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">💡</div>
+            <div>
+              <strong>Indoor air quality</strong>
+              <p>CO₂, temperature, and humidity monitoring ensures optimal learning environments that improve student performance.</p>
+            </div>
+          </div>
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">📊</div>
+            <div>
+              <strong>DfE compliance reporting</strong>
+              <p>Pre-built reports for Condition Improvement Fund applications and energy management obligations.</p>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#demo" class="btn btn--teal">Talk to an Expert</a>
+      </div>
+      <div class="sol-panel__image">
+        <img src="https://www.figma.com/api/mcp/asset/6f920f5d-421f-4fa5-9e1c-e9dabc74a3ed" alt="Education Dashboard" />
+      </div>
+    </div>
+  </section>
+
+  <!-- HEALTHCARE -->
+  <section class="sol-panel" data-sol-panel="healthcare">
+    <div class="container sol-panel__inner">
+      <div class="sol-panel__text">
+        <h2>Healthcare</h2>
+        <p class="sol-panel__intro">Maintain critical environments with confidence. Chiara OS is built to meet the stringent compliance, resilience, and lifecycle requirements of healthcare estates.</p>
+        <div class="sol-panel__benefits">
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">🏥</div>
+            <div>
+              <strong>Critical environment monitoring</strong>
+              <p>24/7 monitoring of operating theatres, clean rooms, and server rooms with instant escalation alerts.</p>
+            </div>
+          </div>
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">📋</div>
+            <div>
+              <strong>HTM compliance</strong>
+              <p>Built-in workflows and audit trails to support HTM 03-01, HTM 04-01, and other NHS estate standards.</p>
+            </div>
+          </div>
+          <div class="sol-benefit">
+            <div class="sol-benefit__icon teal">🔧</div>
+            <div>
+              <strong>Planned maintenance</strong>
+              <p>Never miss a statutory inspection. Automated scheduling ensures all critical assets are maintained on time, every time.</p>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#demo" class="btn btn--teal">Talk to an Expert</a>
+      </div>
+      <div class="sol-panel__image">
+        <img src="https://www.figma.com/api/mcp/asset/33f1f91c-b114-4fbf-8433-09167d781a61" alt="Healthcare Dashboard" />
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS STATS -->
+  <section class="results-stats">
+    <div class="container">
+      <p class="section-eyebrow">RESULTS ACROSS ALL SECTORS</p>
+      <h2 class="section-title text-white">Real results.<br />Real buildings.</h2>
+      <div class="results-grid">
+        <div class="result-item">
+          <div class="result-num">30%</div>
+          <div class="result-label">avg. energy savings</div>
+        </div>
+        <div class="result-item">
+          <div class="result-num">20%</div>
+          <div class="result-label">maintenance cost reduction</div>
+        </div>
+        <div class="result-item">
+          <div class="result-num">50%</div>
+          <div class="result-label">operational savings</div>
+        </div>
+        <div class="result-item">
+          <div class="result-num">2 yrs</div>
+          <div class="result-label">extended asset lifetime</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA STRIP -->
+  <section class="cta-strip">
+    <div class="container cta-strip__inner">
+      <h2>Find your sector solution</h2>
+      <a href="index.html#demo" class="btn btn--teal">Book a Demo</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; 2025 Chiara Core. All rights reserved.</p>
+      <div class="footer__socials">
+        <a href="#" aria-label="LinkedIn" class="footer__social"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="2" y="9" width="4" height="12" stroke="currentColor" stroke-width="2"/><circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="2"/></svg></a>
+        <a href="#" aria-label="Instagram" class="footer__social"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="X" class="footer__social"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.264 5.634L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="solution.js"></script>
+</body>
+</html>
